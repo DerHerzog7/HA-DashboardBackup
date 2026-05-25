@@ -141,7 +141,7 @@ async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     if manager:
         await manager.async_unload()
 
-    frontend.async_remove_panel(PANEL_URL)
+    frontend.async_remove_panel(hass, PANEL_URL)
 
     hass.services.async_remove(DOMAIN, "backup_now")
     hass.services.async_remove(DOMAIN, "restore")
