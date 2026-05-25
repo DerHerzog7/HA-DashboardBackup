@@ -1,7 +1,7 @@
 {
   "domain": "dashboard_backup",
   "name": "Dashboard Backup",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "documentation": "https://github.com/smarthost9m/ha-dashboard-backup",
   "issue_tracker": "https://github.com/smarthost9m/ha-dashboard-backup/issues",
   "dependencies": ["frontend", "http", "panel_custom"],
